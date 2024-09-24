@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex Fetch</title>
+  <link rel="stylesheet" href="style.css" />     
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <h1>Pokédex</h1>
+  <p>Enter a Pokédex number to find a Pokémon:</p>
+
+  <input type="number" id="pokedexNumber" placeholder="Pokédex number">
+  <button onclick="fetchPokemon()">Fetch Pokémon</button>
+
+  <div class="pokemon-container" id="pokemonContainer"></div>
+
+  <div class="error" id="errorMessage"></div>
+
+</body>
+</html>
